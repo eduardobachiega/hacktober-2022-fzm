@@ -38,7 +38,7 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-          color: AppColors.SPLASH_BK,
+          color: AppColors.PRIMARY_COLOR,
           child: Center(
             child: Column(
               mainAxisSize: MainAxisSize.max,
@@ -47,7 +47,7 @@ class _SplashPageState extends State<SplashPage> {
               children: [
                 Container(
                   height: 180,
-                  child: Image.asset("hacktober.jpeg"),
+                  child: Image.asset("hacktober-logo.png"),
                 ),
                 SizedBox(height: 20,),
                 SpinKitThreeBounce(
